@@ -14,7 +14,7 @@ from google.colab import drive
 
 # 1. Mount Google Drive and Load Data
 drive.mount('/content/drive')
-file_path = "/content/drive/My Drive/Copy of Copy of Iris.csv" 
+file_path = "/content/drive/My Drive/Ml datasets/Logistic/Copy of Copy of Iris.csv" 
 try:
     df = pd.read_csv(file_path)
 except FileNotFoundError:
